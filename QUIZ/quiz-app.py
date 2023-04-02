@@ -16,7 +16,7 @@ class Question:
     
     def checkAnswer(self,answer):
         if answer not in self.choices:
-            raise ValueError("Hatalı Bilgi")
+            pass
         return self.answer == answer
 
 class Quiz:
